@@ -44,8 +44,7 @@ var mailSettings = {
             default:
                 this.init();
             case "ping":
-                $()
-                this.ping(this.settings.dump);
+                $(this).ping(this.settings.dump);
             case "pong":
                 this.pong();//Ooogle
         }
